@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>模写中級編1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input">
+        <h2>予約入力欄</h2>
+        <div id="errorModal" class="modal">
+          <div class="modal-content">
+            <p id="errorMessage"></p>
+            <button id="closeBtn">OK</button>
+          </div>
+        </div>
+        <h3>氏名</h3>
+        <input id="name" type="text" />
+        <h3>予約日</h3>
+        <input id="date" type="date" />
+        <h3>予約時間</h3>
+        <input id="time" type="time" />
+        <h3>人数</h3>
+        <input id="person" type="number" min="1" placeholder="人数" />
+        <div class="space"></div>
+        <button id="register">登録</button>
+      </div>
+      <div class="list">
+        <h2>予約一覧</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>氏名</th>
+              <th>日付</th>
+              <th>予約時間</th>
+              <th>人数</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="rList"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
