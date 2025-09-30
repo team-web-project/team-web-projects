@@ -1,0 +1,36 @@
+.wrapper {
+  /* display: flex; */
+  flex-direction: column;
+  width: 300px;
+  /* text-align: center; */
+  /* height: 30px; */
+}
+.wrapper input {
+  align-items: center; /* 縦方向の中央揃え */
+}
+.nameInput input,
+.nameInput textarea {
+  display: flex;
+  flex: 1; /* 残りの幅を入力欄に広げる */
+  padding: 5px; /* 入力欄の内側に余白をつける */
+  width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.barName ul {
+  display: flex;
+  /* justify-content: space-between; 横に間隔を空けたい場合 */
+  /* padding: 0; */
+  /* margin: 0; */
+}
+.content th {
+  padding-top: 10px;
+  padding-right: 80px;
+}
+.taskItem {
+  padding-right: 80px;
+}
+li {
+  list-style: none;
+  padding-right: 80px;
+}

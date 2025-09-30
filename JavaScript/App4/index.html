@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>総合課題</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nameInput">
+        <h4>タスク名</h4>
+        <input id="inputarea" />
+      </div>
+      <div class="nameInput">
+        <h4>期限</h4>
+        <input id="deadLine" type="text" />
+      </div>
+      <div class="nameInput">
+        <h4>ステータス</h4>
+        <input id="status" type="" />
+      </div>
+      <div class="nameInput">
+        <h4>概要</h4>
+        <textarea id="overview"></textarea>
+      </div>
+      <button id="addBtn">追加</button>
+    </div>
+    <div class="content">
+      <h3>タスク一覧</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>タスク名</th>
+            <th>期限</th>
+            <th>ステータス</th>
+            <th>概要</th>
+          </tr>
+        </thead>
+        <tbody id="taskList">
+          <!-- JSでここに<tr>を追加 -->
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
