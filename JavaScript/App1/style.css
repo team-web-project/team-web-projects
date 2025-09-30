@@ -1,0 +1,18 @@
+main {
+  text-align: center;
+}
+.wrapper {
+  width: 33%;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+.count {
+  text-align: center;
+}
+.button {
+  text-align: center;
+}
+.plus {
+}
