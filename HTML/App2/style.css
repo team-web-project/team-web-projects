@@ -38,9 +38,9 @@ header nav a:hover {
 
 #big-picture img {
   width: 100%;
-  height: 70vh;
-  object-fit: fill;
-  display: block;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
 }
 
 section h2 {
