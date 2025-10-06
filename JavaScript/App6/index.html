@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>模写中級編2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="separate">
+        <h4>友達</h4>
+        <div id="selectTo">
+          <!-- ここに宛先リストを出力 -->
+          <!-- 項目は名前、最近のメッセージ履歴(応用) -->
+        </div>
+        <div class="send">
+          <label for="message">宛先:</label>
+          <input type="text" id="messageTo" placeholder="宛先を入力" />
+          <button id="addButton">追加</button>
+        </div>
+      </div>
+      <div class="separate">
+        <h4 id="sendName"><!-- ユーザ名 -->宛先を選択してください</h4>
+        <div id="chatArea">
+          <!-- ここにメッセージを出力 -->
+          <!-- 自分のは右側、相手のは左側に表示 -->
+        </div>
+        <div class="send">
+          <label for="message">メッセージ:</label>
+          <input type="text" id="message" placeholder="メッセージを入力" />
+          <input type="submit" id="sendButton" value="送信" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
